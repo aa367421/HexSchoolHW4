@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>六角學院第四次作業_李文哲</title>
+
+    <meta name='description' content="Start: 220827  Latest: 220912">
+
+    <meta property="og:title" content="六角學院第四次作業_李文哲">
+    <meta property="og:description" content="Start: 220827  Latest: 220912">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="#">
+    <meta property="og:img" content="#">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/all.css">
+</head>
+<body>
+  <div class="container">
+  <h1>TODO LIST</h1>
+    <div class="card input">
+      <input type="text" placeholder="請輸入待辦事項" class="todoInput" />
+      <a href="#" class="btn_add">+</a>
+    </div>
+    <div class="card card_list">
+      <ul class="tab">
+        <li class="active" data-tab="all">全部</li>
+        <li data-tab="unDone">待完成</li>
+        <li data-tab="done">已完成</li>
+      </ul>
+      <div class="cart_content">
+        <ul class="list">
+          <!-- js render here -->
+        </ul>
+        <div class="list_footer">
+          <p><span class="unDoneNum"></span>個待完成項目</p>
+          <a href="#" class="clearDone">清除已完成項目</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script defer src="./js/all.js"></script>
+</body>
+</html>
